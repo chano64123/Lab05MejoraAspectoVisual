@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer-array name="images_players">
+        <item>@drawable/guerrero</item>
+        <item>@drawable/messi</item>
+        <item>@drawable/neymar</item>
+        <item>@drawable/lewandowski</item>
+        <item>@drawable/mbappe</item>
+        <item>@drawable/ramos</item>
+        <item>@drawable/ronaldo</item>
+        <item>@drawable/suarez</item>
+    </integer-array>
+</resources>

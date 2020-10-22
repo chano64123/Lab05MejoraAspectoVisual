@@ -1,0 +1,73 @@
+<resources>
+    <string name="app_name">Lab05MejoraAspectoVisual</string>
+    <string name="info">Ver más Informacion</string>
+    <string name="seleccion">"Seleccion: "</string>
+    <string name="club">"Club: "</string>
+    <string name="edad">"Edad: "</string>
+    <string-array name="nombres">
+        <item>Paolo Guerrero</item>
+        <item>Lionel Messi</item>
+        <item>Neymar Jr.</item>
+        <item>Robert Lewandowski</item>
+        <item>Kylian Mbappe</item>
+        <item>Sergio Ramos</item>
+        <item>Cristiano Ronaldo</item>
+        <item>Luis Suarez</item>
+    </string-array>
+    <string-array name="selecciones">
+        <item>Peruana</item>
+        <item>Argentina</item>
+        <item>Brasilera</item>
+        <item>Polaca</item>
+        <item>Francesa</item>
+        <item>Española</item>
+        <item>Portuguesa</item>
+        <item>Uruguaya</item>
+    </string-array>
+    <string-array name="edades">
+        <item>36</item>
+        <item>33</item>
+        <item>28</item>
+        <item>32</item>
+        <item>21</item>
+        <item>34</item>
+        <item>35</item>
+        <item>33</item>
+    </string-array>
+    <string-array name="clubes">
+        <item>Paolo Guerrero</item>
+        <item>Lionel Messi</item>
+        <item>Neymar Jr.</item>
+        <item>Robert Lewandowski</item>
+        <item>Kylian Mbappe</item>
+        <item>Sergio Ramos</item>
+        <item>Cristiano Ronaldo</item>
+        <item>Luis Suarez</item>
+    </string-array>
+    <string-array name="infos">
+        <item>José Paolo Guerrero Gonzales (Lima, Perú, 1 de enero de 1984) es un futbolista peruano. Juega como delantero centro y su equipo actual es el SC Internacional del Campeonato Brasileño de Serie A. Esta muy cerca de fichar por el Boca Juniors de Argentina, tras no llegar a un acuerdo con su contrato con el equipo Brasileño.\n\nEs internacional absoluto con la Selección del Perú desde el 2004, de la cual es máximo goleador histórico. Es uno de los jugadores miembro del Club de los 100 de la FIFA, formado por aquellos futbolistas con más de cien partidos internacionales con su selección.</item>
+        <item>Lionel Andrés Messi Cuccittini (Rosario, Santa Fe; 24 de junio de 1987), conocido como Leo Messi, es un futbolista argentino que juega como delantero o centrocampista.​Se desempeña en el F. C. Barcelona de la Primera División de España y en la selección de Argentina, equipos de los que es capitán.\n\nConsiderado con frecuencia el mejor jugador del mundo y uno de los mejores de todos los tiempos, es el único futbolista en la historia que ha ganado, entre otras distinciones, seis veces el Balón de Oro (dos Balones de Oro y cuatro FIFA Balones de Oro), los cuatro primeros de forma consecutiva; además de recibir seis Botas de Oro, un FIFA World Player, y un The Best FIFA.</item>
+        <item>Neymar da Silva Santos Júnior (Mogi das Cruzes, São Paulo, 5 de febrero de 1992), conocido simplemente como Neymar o Neymar Jr., es un futbolista brasileño. Juega como delantero y su equipo actual es el París Saint-Germain Football Club de la Ligue 1 de Francia.\n\nEs internacional absoluto con la selección de Brasil desde 2010. Dotado de una gran técnica, es considerado como uno de los mejores jugadores del mundo de su generación.</item>
+        <item>Robert Lewandowski (Varsovia, Mazovia, 21 de agosto de 1988) es un futbolista polaco. Juega como delantero centro y su equipo actual es el Bayern de Múnich de la Bundesliga de Alemania. Es también internacional absoluto con la selección de Polonia, de la cual es el capitán y máximo goleador histórico. \n\nConsiderado como uno de los mejores delanteros del mundo, es el cuarto máximo goleador de la historia del campeonato alemán.​Ostenta algunas de las mejores marcas al ser el autor del triplete, cuadruplete y quintuplete más rápidos en un mismo encuentro.</item>
+        <item>Kylian Mbappé Lottin (París, Isla de Francia, 20 de diciembre de 1998) es un futbolista francés. Juega como delantero y su equipo actual es el París Saint-Germain Football Club de la Ligue 1 de Francia. Es internacional absoluto por la selección de Francia desde 2017.\n\nTuvo una pronta eclosión a primer nivel europeo en su temporada de debut como profesional y fue señalado por diversos medios y especialistas como uno de los jugadores de mayor proyección del continente.</item>
+        <item>Sergio Ramos García (Camas, Sevilla, España, 30 de marzo de 1986) es un futbolista español. Juega como defensa y su equipo actual es el Real Madrid C. F. de la Primera División de España. Formado en las categorías inferiores del Sevilla, debutó en Primera División con el equipo hispalense en 2004.\n\nEn 2005 fichó por el Real Madrid, equipo del que es capitán desde 2015 y con el que se ha proclamado entre otros títulos, pentacampeón de Liga, tetracampeón de Europa y tetracampeón del mundo. A nivel individual, ostenta el récord como defensor más premiado, en los onces ideales de FIFA (10) y UEFA (8). </item>
+        <item>Cristiano Ronaldo dos Santos Aveiro, (Funchal, Madeira; 5 de febrero de 1985), más conocido como Cristiano Ronaldo, es un futbolista portugués que juega como delantero en la Juventus F. C. de la Serie A de Italia y en la selección de Portugal, de la cual es su capitán.\n\nIdentificado habitualmente en los medios de comunicación con el numerónimo CR7, es considerado con frecuencia el mejor y más completo futbolista y goleador del mundo​ y uno de los mejores de todos los tiempos, por un elevado número de personas y prensa vinculadas al deporte, así como también una de las figuras más mediáticas de su generación.</item>
+        <item>Luis Alberto Suárez Díaz (Salto, Uruguay, 24 de enero de 1987) es un futbolista uruguayo. Juega como delantero y su equipo actual es el Atlético de Madrid de la Primera División de España. Es internacional absoluto con la selección de fútbol de Uruguay, de la cual es el máximo goleador histórico. También posee ciudadanía italiana.\n\nConsiderado por diversos medios de comunicación como uno de los mejores delanteros del mundo, comenzó su carrera profesional en el Club Nacional de Football, donde conseguiría dos Campeonatos Uruguayos. A la edad de 19 años emigró a los Países Bajos para jugar en el F. C. Groningen de la Eredivisie.</item>
+    </string-array>
+    <string-array name="links">
+        <item>https://es.wikipedia.org/wiki/Paolo_Guerrero</item>
+        <item>https://es.wikipedia.org/wiki/Lionel_Messi</item>
+        <item>https://es.wikipedia.org/wiki/Neymar</item>
+        <item>https://es.wikipedia.org/wiki/Robert_Lewandowski</item>
+        <item>https://es.wikipedia.org/wiki/Kylian_Mbapp%C3%A9</item>
+        <item>https://es.wikipedia.org/wiki/Sergio_Ramos</item>
+        <item>https://es.wikipedia.org/wiki/Cristiano_Ronaldo</item>
+        <item>https://es.wikipedia.org/wiki/Luis_Su%C3%A1rez_(futbolista)</item>
+    </string-array>
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="años">" años"</string>
+    <string name="nombre">Nombre</string>
+    <string name="view_more">Ver más</string>
+</resources>
