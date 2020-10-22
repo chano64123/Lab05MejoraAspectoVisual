@@ -35,14 +35,14 @@
         <item>33</item>
     </string-array>
     <string-array name="clubes">
-        <item>Paolo Guerrero</item>
-        <item>Lionel Messi</item>
-        <item>Neymar Jr.</item>
-        <item>Robert Lewandowski</item>
-        <item>Kylian Mbappe</item>
-        <item>Sergio Ramos</item>
-        <item>Cristiano Ronaldo</item>
-        <item>Luis Suarez</item>
+        <item>Sport Club Internacional</item>
+        <item>Fútbol Club Barcelona</item>
+        <item>París Saint-Germain Football Club</item>
+        <item>Bayern de Múnich</item>
+        <item>París Saint-Germain Football Club</item>
+        <item>Real Madrid Club de Fútbol</item>
+        <item>Juventus de Turín</item>
+        <item>Club Atlético de Madrid</item>
     </string-array>
     <string-array name="infos">
         <item>José Paolo Guerrero Gonzales (Lima, Perú, 1 de enero de 1984) es un futbolista peruano. Juega como delantero centro y su equipo actual es el SC Internacional del Campeonato Brasileño de Serie A. Esta muy cerca de fichar por el Boca Juniors de Argentina, tras no llegar a un acuerdo con su contrato con el equipo Brasileño.\n\nEs internacional absoluto con la Selección del Perú desde el 2004, de la cual es máximo goleador histórico. Es uno de los jugadores miembro del Club de los 100 de la FIFA, formado por aquellos futbolistas con más de cien partidos internacionales con su selección.</item>
@@ -70,4 +70,5 @@
     <string name="años">" años"</string>
     <string name="nombre">Nombre</string>
     <string name="view_more">Ver más</string>
+    <string name="titulo">Futbolistas Famosos</string>
 </resources>

@@ -1,2 +1,74 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="app_name">Lab05MejoraAspectoVisual</string>
+    <string name="info">See more Information</string>
+    <string name="seleccion">"Soccer Team: "</string>
+    <string name="club">"Club: "</string>
+    <string name="edad">"Age: "</string>
+    <string-array name="nombres">
+        <item>Paolo Guerrero</item>
+        <item>Lionel Messi</item>
+        <item>Neymar Jr.</item>
+        <item>Robert Lewandowski</item>
+        <item>Kylian Mbappe</item>
+        <item>Sergio Ramos</item>
+        <item>Cristiano Ronaldo</item>
+        <item>Luis Suarez</item>
+    </string-array>
+    <string-array name="selecciones">
+        <item>Peruvian</item>
+        <item>Argentina</item>
+        <item>Brazilian</item>
+        <item>Polish</item>
+        <item>French</item>
+        <item>Spanish</item>
+        <item>Portuguese</item>
+        <item>Uruguayan</item>
+    </string-array>
+    <string-array name="edades">
+        <item>36</item>
+        <item>33</item>
+        <item>28</item>
+        <item>32</item>
+        <item>21</item>
+        <item>34</item>
+        <item>35</item>
+        <item>33</item>
+    </string-array>
+    <string-array name="clubes">
+        <item>Sport Club Internacional</item>
+        <item>Football Club Barcelona</item>
+        <item>Paris Saint-Germain Football Club</item>
+        <item>Bayern Munich</item>
+        <item>Paris Saint-Germain Football Club</item>
+        <item>Real Madrid Football Club</item>
+        <item>Juventus of Turin</item>
+        <item>Athletic Club of Madrid</item>
+    </string-array>
+    <string-array name="infos">
+        <item>José Paolo Guerrero Gonzales (Lima, Peru, January 1, 1984) is a Peruvian soccer player. He plays as a center forward and his current team is the SC Internacional of the Brazilian Serie A Championship. He is very close to signing for Boca Juniors of Argentina, after not reaching an agreement with his contract with the Brazilian team.\n\nIt is international absolute with the Peruvian National Team since 2004, of which he is the top scorer in history. He is one of the member players of the FIFA 100 Club, made up of those footballers with more than one hundred international appearances for his national team.</item>
+        <item>Lionel Andrés Messi Cuccittini (Rosario, Santa Fe; June 24, 1987), known as Leo Messi, is an Argentine footballer who plays as a forward or midfielder. He plays for FC Barcelona in the First Division of Spain and for the national team of Argentina, teams of which he is captain.\n\nFrequently considered the best player in the world and one of the best of all time, he is the only footballer in history who has won, among other distinctions, six times the Ball de Oro (two Ballon d\'Or and four FIFA Ballon d\'Or), the first four consecutively; in addition to receiving six Golden Boots, a FIFA World Player, and a The Best FIFA.</item>
+        <item>Neymar da Silva Santos Júnior (Mogi das Cruzes, São Paulo, February 5, 1992), known simply as Neymar or Neymar Jr., is a Brazilian soccer player. He plays as a forward and his current team is the Paris Saint-Germain Football Club of France\'s Ligue 1.\n\nHe is an absolute international with the Brazilian team since 2010. Endowed with great technique, he is considered one of the best players of the world of his generation.</item>
+        <item>Robert Lewandowski (Warsaw, Mazovia, August 21, 1988) is a Polish footballer. He plays as a center forward and his current team is Bayern Munich from the German Bundesliga. He is also an absolute international with the Polish national team, of which he is the captain and all-time top scorer.\n\nRegarded as one of the best strikers in the world, he is the fourth top scorer in the history of the German championship, holding some of the best marks as the author of the fastest treble, quadruplet and quintuplet in the same match.</item>
+        <item>Kylian Mbappé Lottin (Paris, Ile de France, December 20, 1998) is a French footballer. He plays as a forward and his current team is Paris Saint-Germain Football Club from Ligue 1 in France. He is an absolute international for the France team since 2017.\n\nHe had a quick emergence at the first European level in his debut season as a professional and was singled out by various media and specialists as one of the most projected players on the continent.</item>
+        <item>Sergio Ramos García (Beds, Seville, Spain, March 30, 1986) is a Spanish footballer. He plays as a defender and his current team is Real Madrid C. F. of the First Division of Spain. Formed in the lower categories of Sevilla, he made his debut in the First Division with the Seville team in 2004.\n\nIn 2005 he signed for Real Madrid, a team of which he has been captain since 2015 and with which he has been proclaimed, among other titles, five-time champion of Liga, four-time champion of Europe and four-time world champion. On an individual level, he holds the record as the most awarded defender, in the ideal eleven of FIFA (10) and UEFA (8).</item>
+        <item>Cristiano Ronaldo dos Santos Aveiro, (Funchal, Madeira; February 5, 1985), better known as Cristiano Ronaldo, is a Portuguese footballer who plays as a forward for Juventus FC in Serie A in Italy and in the Portugal team, from which is its captain.\n\nNormally identified in the media with the number CR7, he is often considered the best and most complete soccer player and scorer in the world and one of the best of all time, by a large number of people and the press linked to sport, as well as one of the most media figures of his generation.</item>
+        <item>Luis Alberto Suárez Díaz (Salto, Uruguay, January 24, 1987) is a Uruguayan soccer player. He plays as a forward and his current team is Atlético de Madrid from the Spanish First Division. He is an absolute international with the Uruguayan soccer team, of which he is the historical top scorer. He also has Italian citizenship.\n\nConsidered by various media as one of the best strikers in the world, he began his professional career at the National Football Club, where he would win two Uruguayan Championships. At the age of 19 he emigrated to the Netherlands to play for F.C. Groningen in the Eredivisie.</item>
+    </string-array>
+    <string-array name="links">
+        <item>https://en.wikipedia.org/wiki/Paolo_Guerrero</item>
+        <item>https://en.wikipedia.org/wiki/Lionel_Messi</item>
+        <item>https://en.wikipedia.org/wiki/Neymar</item>
+        <item>https://en.wikipedia.org/wiki/Robert_Lewandowski</item>
+        <item>https://en.wikipedia.org/wiki/Kylian_Mbapp%C3%A9</item>
+        <item>https://en.wikipedia.org/wiki/Sergio_Ramos</item>
+        <item>https://en.wikipedia.org/wiki/Cristiano_Ronaldo</item>
+        <item>https://en.wikipedia.org/wiki/Luis_Su%C3%A1rez_(futbolista)</item>
+    </string-array>
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="años">" years old"</string>
+    <string name="nombre">Name</string>
+    <string name="view_more">See more</string>
+    <string name="titulo">Famous Soccer Players</string>
+</resources>
