@@ -8,14 +8,17 @@ import android.graphics.drawable.BitmapDrawable;
 import android.graphics.drawable.Drawable;
 import android.graphics.text.LineBreaker;
 import android.net.Uri;
+import android.os.Build;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
+import androidx.annotation.RequiresApi;
 import androidx.cardview.widget.CardView;
 import androidx.core.graphics.drawable.RoundedBitmapDrawable;
 import androidx.core.graphics.drawable.RoundedBitmapDrawableFactory;
@@ -37,8 +40,7 @@ public class RVAdapter extends RecyclerView.Adapter<RVAdapter.FutbolistaViewHold
     @Override
     public FutbolistaViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
         View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.futbolista,parent,false);
-        FutbolistaViewHolder personaViewHolder = new FutbolistaViewHolder(view);
-        return personaViewHolder;
+        return new FutbolistaViewHolder(view);
     }
 
     @Override
@@ -90,18 +92,25 @@ public class RVAdapter extends RecyclerView.Adapter<RVAdapter.FutbolistaViewHold
 
         public void setOnClickListeners() {
             btnMasInfo.setOnClickListener(this);
+            fotoFutbolista.setOnClickListener(this);
         }
 
         @Override
         public void onClick(View v) {
-            //TODO: Nueva activity con la informacion del futbolista o un Pop-up
-            crearPopUp(itemView,nombreFutbolista,infoFutbolista,linkFutbolista);
+            switch (v.getId()){
+                case R.id.btnMasInfo:
+                    crearPopUpDesdeBoton(itemView,nombreFutbolista,infoFutbolista,linkFutbolista);
+                    break;
+                case R.id.fotoFutbolista:
+                    crearPopUpDesdeImages(itemView,nombreFutbolista,fotoFutbolista);
+                    break;
+            }
         }
 
-        private void crearPopUp(final View itemView, TextView nombreFutbolista, TextView infoFutbolista, final TextView linkFutbolista) {
+        private void crearPopUpDesdeBoton(final View itemView, TextView nombreFutbolista, TextView infoFutbolista, final TextView linkFutbolista) {
             //creando dialog
             dialog = new Dialog(itemView.getContext());
-            dialog.setContentView(R.layout.pop_up);
+            dialog.setContentView(R.layout.pop_up_boton);
             dialog.setTitle(nombreFutbolista.getText().toString());
             //creando objetos
             TextView titulo = (TextView) dialog.findViewById(R.id.nombreFutbolista);
@@ -120,7 +129,27 @@ public class RVAdapter extends RecyclerView.Adapter<RVAdapter.FutbolistaViewHold
                 }
             });
             descripcion.setJustificationMode(LineBreaker.JUSTIFICATION_MODE_INTER_WORD);
+            //Iniciando pop-up
             dialog.show();
+        }
+
+        private void crearPopUpDesdeImages(final View itemView, TextView nombreFutbolista, ImageView fotoFutbolista) {
+            try {
+                //creando dialog
+                dialog = new Dialog(itemView.getContext());
+                dialog.setContentView(R.layout.pop_up_imagen);
+                dialog.setTitle(nombreFutbolista.getText().toString());
+                //creando objetos
+                TextView titulo = (TextView) dialog.findViewById(R.id.nombreFutbolista);
+                ImageView imagen = (ImageView) dialog.findViewById(R.id.fotoFutbolista);
+                //dando valor a los objetos
+                titulo.setText(nombreFutbolista.getText().toString());
+                imagen.setImageDrawable(fotoFutbolista.getDrawable());
+                //Iniciando pop-up
+                dialog.show();
+            } catch (Exception e){
+                Toast.makeText(itemView.getContext(), e.toString(), Toast.LENGTH_SHORT).show();
+            }
         }
     }
 }
